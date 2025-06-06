@@ -1,8 +1,8 @@
 ﻿using NeoBank.Dtos;
 
-namespace NeoBank.Repositories
+namespace NeoBank.Services
 {
-    public interface IAccountRepository
+    public interface IAccountService
     {
         public Task<string> CreateAccount(CreateAccountDto createAccountDto);
 

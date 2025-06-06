@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeoBank")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d36d6c782e0b37c70cf7b046c687fe96f2f80f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78c97448467788b175c1fafa0bfc6de7c0cff0f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeoBank")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeoBank")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
