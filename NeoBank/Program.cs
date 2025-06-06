@@ -13,7 +13,7 @@ builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("ApiSet
 builder.Services.AddHttpClient("Randommer", httpClient =>
 {
     httpClient.BaseAddress = new Uri("https://randommer.io/api/");
-    httpClient.DefaultRequestHeaders.Add("X-Api-Key", builder.Configuration.GetSection("ApiSettings:RandommerApiKey").ToString());
+    httpClient.DefaultRequestHeaders.Add("X-Api-Key", builder.Configuration.GetSection("ApiSettings:RandommerApiKey").Value);
 });
 
 // Add services to the container.

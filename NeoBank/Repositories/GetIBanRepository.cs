@@ -25,8 +25,12 @@ namespace NeoBank.Repositories
                 {
                     IBAN = await httpResponseMessage.Content.ReadAsStringAsync();
                 }
+                else
+                {
+                    throw new Exception($"Failed to Fetch IBAN: {httpResponseMessage.ReasonPhrase}");
+                }
 
-                return await Task.FromResult( IBAN );
+                    return await Task.FromResult(IBAN);
             }
             catch (Exception ex)
             {
