@@ -1,0 +1,6 @@
+@NeoBank_HostAddress = http://localhost:5051
+
+GET {{NeoBank_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
